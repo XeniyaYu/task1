@@ -4,7 +4,7 @@
     display: grid;
     margin: 50px auto 0px 200px;
     grid-template-columns: 282px 282px 282px;
-    grid-template-rows: ;
+    
     grid-column-gap: 17px;
     grid-row-gap: 20px;
     
