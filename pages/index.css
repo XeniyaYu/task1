@@ -7,3 +7,8 @@
 @import url('../blocks/profile/__avatar/profile__avatar.css');
 @import url('../blocks/profile/__info/profile__info.css');
 @import url('../blocks/profile/__info/__name/profile__info__name.css');
+@import url('../blocks/profile/__info/__status/profile__info__status.css');
+@import url('../blocks/profile/__info/__edit-button/profile__info__edit-button.css');
+@import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__item/gallery__item.css');
+@import url('../blocks/footer/footer.css');
