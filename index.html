@@ -44,7 +44,24 @@
                 <img class="gallery__item" src="./img/домбай.png" alt="picture">
                 <img class="gallery__item" src="./img/карачаевск.png" alt="picture">
             </section>
+            <section class="edit-profile">
+                <div class="edit-profile__info">
+                    <h2 class="edit-profile__title">Редактировать профиль</h2>
+                    <p><input class="edit-profile__log" type="text" placeholder="Name"></p>
+                    <p><input class="edit-profile__log" type="text" placeholder="Status"></p>
+                    <button class="edit-profile__save-button">Сохранить</button>
+
+                </div>
+            </section>
         </main>
+        <script>
+            let editButton = document.querySelector('.profile__info__edit-button__button');
+            let saveButton = document.querySelector('.edit-profile__save-button');
+            let editBlock = document.querySelector('.edit-profile');
+            editButton.addEventListener('click', function(e) {
+                editBlock.classList.toggle('.visible')
+            })
+        </script>
     </div>
 </body>
 <footer class="footer">
