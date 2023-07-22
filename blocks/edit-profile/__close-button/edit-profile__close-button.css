@@ -1,0 +1,11 @@
+.edit-profile__close-button {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    background: url('../../../img/Close\ Icon.png');
+    position:absolute;
+    left: 443px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}

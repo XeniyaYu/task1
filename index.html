@@ -15,9 +15,6 @@
             <div>
                 <hr class="header__line">
             </div>
-
-
-
         </header>
         <main>
             <section class="profile">
@@ -26,12 +23,13 @@
                 </div>
                 <div class="profile__info">
                     <span class="profile__info__name">Жак-Ив Кусто</span>
-                    <button class="profile__info__edit-button__button"><img src="./img/pencil.svg" alt="edit" class="profile__info__edit-button__picture"></button>
-                    <!-- <img src="./img/Edit Button.svg" class="profile__info__edit-button"> -->
+                    <button  class="profile__info__edit-button__button"><img src="./img/pencil.svg" alt="edit"
+                            class="profile__info__edit-button__picture"></button>
                     <span class="profile__info__status">Исследователь океана</span>
                 </div>
                 <div>
-                    <button class="profile__add-button"><img src="./img/plus.svg" class="profile__add-button__plus"></button>
+                    <button class="profile__add-button"><img src="./img/plus.svg"
+                            class="profile__add-button__plus"></button>
 
                 </div>
 
@@ -45,7 +43,11 @@
                 <img class="gallery__item" src="./img/карачаевск.png" alt="picture">
             </section>
             <section class="edit-profile">
+                <div>
+                    <button class="edit-profile__close-button"></button>
+                </div>
                 <div class="edit-profile__info">
+                   
                     <h2 class="edit-profile__title">Редактировать профиль</h2>
                     <p><input class="edit-profile__log" type="text" placeholder="Name"></p>
                     <p><input class="edit-profile__log" type="text" placeholder="Status"></p>
@@ -58,9 +60,14 @@
             let editButton = document.querySelector('.profile__info__edit-button__button');
             let saveButton = document.querySelector('.edit-profile__save-button');
             let editBlock = document.querySelector('.edit-profile');
-            editButton.addEventListener('click', function(e) {
-                editBlock.classList.toggle('.visible')
+            editButton.addEventListener('click', function (e) {
+                editBlock.classList.toggle('visible');
+            
             })
+            let closeButton = document.querySelector('edit-profile__close-button');
+            // closeButton.addEventListener('click', function (e) {
+            //     editBlock.classList.toggle('visible');
+            // })
         </script>
     </div>
 </body>
