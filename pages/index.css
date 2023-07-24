@@ -13,7 +13,15 @@
 @import url('../blocks/profile/__info/__edit-button/__button/profile__info__edit-button__button.css');
 @import url('../blocks/profile/__info/__edit-button/__picture/profile__info__edit-button__picture.css');
 @import url('../blocks/gallery/gallery.css');
-@import url('../blocks/gallery/__item/gallery__item.css');
+@import url('../blocks/gallery/__karachaevsk/gallery__karachaevsk.css');
+@import url('../blocks/gallery/__karachaevsk/__photo/gallery__karachaevsk__photo.css');
+@import url('../blocks/gallery/__description/gallery__description.css');
+@import url('../blocks/gallery/__description/__like/gallery__description__like.css');
+@import url('../blocks/gallery/__description/__text/gallery__description__text.css');
+@import url('../blocks/gallery/__elbrus/gallery__elbrus.css');
+@import url('../blocks/gallery/__elbrus/__photo/gallery__elbrus__photo.css');
+@import url('../blocks/gallery/__dombai/gallery__dombai.css');
+@import url('../blocks/gallery/__dombai/__photo/gallery__dombai__photo.css');
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/edit-profile/edit-profile.css');
 @import url('../blocks/edit-profile/__info/edit-profile__info.css');
